@@ -1,0 +1,9 @@
+The data set can be accessed by visiting: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+run_analysis.R merges the two sets, test and training, to create one data set. It then reads the features file and measures the mean and standard deviation for each measurement. 
+
+The activity_labels file is then descriptively named as follows: walking, walkingupstairs, walkingdownstairs, sitting, standing, laying.
+
+All descriptions are tidied up, and then the data frames are merged to create one file that contains the following columns: subject ID, activity names, and measurements.
+
+Then, the tidy data set is created in a separate file with the measurements for each activity and each subject averaged.
